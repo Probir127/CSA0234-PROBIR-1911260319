@@ -1,0 +1,5 @@
+/server
+/client
+/library.tsv
+/library.tsv.tmp
+__pycache__/

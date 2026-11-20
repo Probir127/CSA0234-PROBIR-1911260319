@@ -2,8 +2,12 @@
 
 **PROBIR SAHA SHOHOM · 1911260319**
 
-## Assignment PDFs
+## Assignments
 
-[Open the assignment index](Assignment/README.md) for the question papers and solution reports for Assignments 1–5.
+[Assignment PDFs](Assignment/README.md) — question papers and solution reports for Assignments 1–5.
 
-Each assignment has its own folder under `Assignment/`, with separate PDFs for the question paper and solution report.
+## Capstone project
+
+[Distributed Library Management System](Caption%20project/README.md) — C client and server, browser interface, build instructions and integration tests.
+
+The project uses POSIX sockets and pthreads on macOS/Linux. Run `make` from the project folder. See its README for terminal and browser usage.
