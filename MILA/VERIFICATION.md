@@ -78,3 +78,13 @@ appeared during the tested runs.
   was performed because browser control was unavailable.
 - Generated executables are excluded from Git. Rebuild with `make clean` and
   `make test` when changing compiler flags, since Make does not track flag changes.
+
+## Local runner and usage demo
+
+On 23 November 2026, `make test-runner` passed all four integration test groups.
+The checks start a temporary loopback server and verify actual C results, invalid
+input, program selection restrictions, request validation, origin handling, and
+the served page. The browser usage scenarios in [demo/README.md](demo/README.md)
+were also operated and checked through the visible interface. The 1:38 video
+uses actual captured browser screens; the encoded MP4 decoded end to end without
+FFmpeg errors.

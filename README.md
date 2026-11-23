@@ -15,3 +15,5 @@ The project uses POSIX sockets and pthreads on macOS/Linux. Run `make` from the 
 ## MILA activity
 
 [MILA learning portfolio](MILA/README.md) — a report covering nine learning methods, a C concept map, eight runnable C examples, and verified tests.
+
+[Watch the MILA usage demo](https://github.com/Probir127/CSA0234-PROBIR-1911260319/raw/refs/heads/main/MILA/demo/mila-demo.mp4) — select activities, enter inputs, run the C programs, and view results in the local runner.

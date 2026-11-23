@@ -18,6 +18,19 @@ or required file format. The exercises here are selected applications of those
 methods. Collaborative sections are facilitation plans and worked examples;
 they do not claim that a group session or peer evaluation has taken place.
 
+## Demo video
+
+[![Watch the MILA demo](demo/poster.jpg)](https://github.com/Probir127/CSA0234-PROBIR-1911260319/raw/refs/heads/main/MILA/demo/mila-demo.mp4)
+
+**[Watch or download the MP4](https://github.com/Probir127/CSA0234-PROBIR-1911260319/raw/refs/heads/main/MILA/demo/mila-demo.mp4)**
+— 1 minute 38 seconds, 1280 × 720, silent. It shows actual use of the local
+runner: selecting activities, entering and changing inputs, running the C programs,
+and reading results. See the [usage guide, capture log, and subtitles](demo/README.md).
+
+To use the same interface yourself, run `make` from `MILA/`, then
+`python3 demo/run_project.py` and open **http://127.0.0.1:5088/**.
+The runner invokes the compiled C executables; it does not simulate their outputs.
+
 ## Coverage
 
 | MILA method | C activity | Deliverable |
@@ -43,6 +56,8 @@ make
 printf '5 1 2 3 4 5\n' | ./build/01_pogil_arrays
 make test
 ```
+
+Optional browser runner checks: `make test-runner` (opens a temporary loopback port).
 
 Expected example output:
 

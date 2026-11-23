@@ -1,0 +1,248 @@
+{
+  "captured_at": "2026-11-23T06:56:00.319Z",
+  "method": "Real in-app browser screenshots at interaction checkpoints, held for readability; no simulated outputs",
+  "runs": [
+    {
+      "activity": "POGIL Array sum and mean",
+      "input": "5 1 2 3 4 5",
+      "expected": "Sum: 15",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "POGIL Array sum and mean",
+      "input": "3 10 20 30",
+      "expected": "Mean: 20.00",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "Jigsaw Modular statistics",
+      "input": "5 12 7 19 7 5",
+      "expected": "Min: 5",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "SCALE-UP Inventory valuation",
+      "input": "3\n2 1250\n3 499\n0 999",
+      "expected": "Total value: 39.97",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "PLTBL Prime checking",
+      "input": "97",
+      "expected": "97 is prime",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "PLTBL Prime checking",
+      "input": "49",
+      "expected": "49 is not prime",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "Critical Pedagogy Safe array bounds",
+      "input": "101",
+      "expected": "Invalid input",
+      "status": "Input rejected by C program"
+    },
+    {
+      "activity": "Critical Pedagogy Safe array bounds",
+      "input": "3 10 -2 5",
+      "expected": "Sum: 13",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "Game-Based Learning C concept quiz",
+      "input": "1 1 3 2 2",
+      "expected": "Score: 3/5",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "Role Play Values and pointers",
+      "input": "10 20",
+      "expected": "After pointer call: 20 10",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "Flipped Classroom Binary search",
+      "input": "5\n2 4 6 8 10\n8",
+      "expected": "Index: 3",
+      "status": "Completed successfully"
+    },
+    {
+      "activity": "Flipped Classroom Binary search",
+      "input": "5\n2 4 6 8 10\n7",
+      "expected": "Index: -1",
+      "status": "Completed successfully"
+    }
+  ],
+  "frames": [
+    {
+      "label": "MILA runner ready",
+      "seconds": 3
+    },
+    {
+      "label": "Clear input: POGIL Array sum and mean",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: POGIL Array sum and mean",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: POGIL Array sum and mean",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: POGIL Array sum and mean",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: POGIL Array sum and mean",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: POGIL Array sum and mean",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: Jigsaw Modular statistics",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: Jigsaw Modular statistics",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: Jigsaw Modular statistics",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: SCALE-UP Inventory valuation",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: SCALE-UP Inventory valuation",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: SCALE-UP Inventory valuation",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: PLTBL Prime checking",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: PLTBL Prime checking",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: PLTBL Prime checking",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: PLTBL Prime checking",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: PLTBL Prime checking",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: PLTBL Prime checking",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: Critical Pedagogy Safe array bounds",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: Critical Pedagogy Safe array bounds",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: Critical Pedagogy Safe array bounds",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: Critical Pedagogy Safe array bounds",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: Critical Pedagogy Safe array bounds",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: Critical Pedagogy Safe array bounds",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: Game-Based Learning C concept quiz",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: Game-Based Learning C concept quiz",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: Game-Based Learning C concept quiz",
+      "seconds": 4
+    },
+    {
+      "label": "Read quiz feedback and score",
+      "seconds": 5
+    },
+    {
+      "label": "Clear input: Role Play Values and pointers",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: Role Play Values and pointers",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: Role Play Values and pointers",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: Flipped Classroom Binary search",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: Flipped Classroom Binary search",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: Flipped Classroom Binary search",
+      "seconds": 4
+    },
+    {
+      "label": "Clear input: Flipped Classroom Binary search",
+      "seconds": 0.75
+    },
+    {
+      "label": "Enter input: Flipped Classroom Binary search",
+      "seconds": 1.5
+    },
+    {
+      "label": "Result: Flipped Classroom Binary search",
+      "seconds": 4
+    },
+    {
+      "label": "Explore C concept relationships",
+      "seconds": 6
+    },
+    {
+      "label": "Custom input can be replaced with a sample",
+      "seconds": 2
+    },
+    {
+      "label": "Load example restores the sample input",
+      "seconds": 2
+    },
+    {
+      "label": "Run the loaded example",
+      "seconds": 5
+    }
+  ]
+}
