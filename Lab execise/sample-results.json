@@ -1,0 +1,722 @@
+[
+  {
+    "number": 1,
+    "stdin": "",
+    "stdout": "Hello, World!\n",
+    "exit_status": 0
+  },
+  {
+    "number": 2,
+    "stdin": "",
+    "stdout": "char: size=1 range=-128..127\nsigned char: size=1 range=-128..127\nunsigned char: size=1 range=0..255\nshort: size=2 range=-32768..32767\nunsigned short: size=2 range=0..65535\nint: size=4 range=-2147483648..2147483647\nunsigned int: size=4 range=0..4294967295\nlong: size=8 range=-9223372036854775808..9223372036854775807\nunsigned long: size=8 range=0..18446744073709551615\nlong long: size=8 range=-9223372036854775808..9223372036854775807\nunsigned long long: size=8 range=0..18446744073709551615\nfloat: size=4 lowest=-3.40282e+38 min-positive-normal=1.17549e-38 max=3.40282e+38\ndouble: size=8 lowest=-1.79769e+308 min-positive-normal=2.22507e-308 max=1.79769e+308\nlong double: size=8 lowest=-1.79769e+308 min-positive-normal=2.22507e-308 max=1.79769e+308\n_Bool: size=1 range=0..1\nvoid has no object size or value range. Floating ranges include negative values and zero; minimum shown is positive and normal.\n",
+    "exit_status": 0
+  },
+  {
+    "number": 3,
+    "stdin": "12 -5\n",
+    "stdout": "Sum: 7\n",
+    "exit_status": 0
+  },
+  {
+    "number": 4,
+    "stdin": "10 20\n",
+    "stdout": "20 10\n",
+    "exit_status": 0
+  },
+  {
+    "number": 5,
+    "stdin": "10 20\n",
+    "stdout": "20 10\n",
+    "exit_status": 0
+  },
+  {
+    "number": 6,
+    "stdin": "2\n",
+    "stdout": "Area: 12.57\nCircumference: 12.57\n",
+    "exit_status": 0
+  },
+  {
+    "number": 7,
+    "stdin": "1000 5 2\n",
+    "stdout": "Interest: 100.00\nAmount: 1100.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 8,
+    "stdin": "1000 10 2\n",
+    "stdout": "Interest: 210.00\nAmount: 1210.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 9,
+    "stdin": "C 100\n",
+    "stdout": "Fahrenheit: 212.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 10,
+    "stdin": "400\n",
+    "stdout": "Years: 1\nWeeks: 5\nDays: 0\n",
+    "exit_status": 0
+  },
+  {
+    "number": 11,
+    "stdin": "A\n",
+    "stdout": "ASCII: 65\n",
+    "exit_status": 0
+  },
+  {
+    "number": 12,
+    "stdin": "7 3.75\n",
+    "stdout": "Implicit double: 7.00\nExplicit integer: 3\nInteger division: 3\nFloating division: 3.50\n",
+    "exit_status": 0
+  },
+  {
+    "number": 13,
+    "stdin": "2\n",
+    "stdout": "PI: 3.141593\nRadius: 2.00\nArea: 12.57\n",
+    "exit_status": 0
+  },
+  {
+    "number": 14,
+    "stdin": "4 7\n",
+    "stdout": "Square: 16\nMaximum: 7\n",
+    "exit_status": 0
+  },
+  {
+    "number": 15,
+    "stdin": "",
+    "stdout": "Feature enabled\nFallback constant: 42\n",
+    "exit_status": 0
+  },
+  {
+    "number": 16,
+    "stdin": "3 4 5\n",
+    "stdout": "Area: 6.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 17,
+    "stdin": "80 90 70 60 100\n",
+    "stdout": "Total: 400.00\nAverage: 80.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 18,
+    "stdin": "3661\n",
+    "stdout": "01:01:01\n",
+    "exit_status": 0
+  },
+  {
+    "number": 19,
+    "stdin": "472\n",
+    "stdout": "Hundreds: 4\nTens: 7\nUnits: 2\n",
+    "exit_status": 0
+  },
+  {
+    "number": 20,
+    "stdin": "0 0 3 4\n",
+    "stdout": "Distance: 5.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 21,
+    "stdin": "12.3456\n",
+    "stdout": "Right: [     12.35]\nLeft:  [12.35     ]\nPrecise: 12.3456\n",
+    "exit_status": 0
+  },
+  {
+    "number": 22,
+    "stdin": "",
+    "stdout": "Unsigned overflow: 0\nUnsigned underflow: 4294967295\nSigned overflow/underflow avoided: adding to INT_MAX or subtracting from INT_MIN is undefined.\n",
+    "exit_status": 0
+  },
+  {
+    "number": 23,
+    "stdin": "3\n",
+    "stdout": "Wednesday\n",
+    "exit_status": 0
+  },
+  {
+    "number": 24,
+    "stdin": "",
+    "stdout": "auto=3 register=5 extern=10\nstatic calls: 1 2\n",
+    "exit_status": 0
+  },
+  {
+    "number": 25,
+    "stdin": "17 5\n",
+    "stdout": "Add: 22\nSubtract: 12\nMultiply: 85\nDivide: 3\nRemainder: 2\n",
+    "exit_status": 0
+  },
+  {
+    "number": 26,
+    "stdin": "3 5\n",
+    "stdout": "Equal: 0\nNot equal: 1\nLess: 1\nGreater: 0\nLess or equal: 1\nGreater or equal: 0\nAND: 1\nOR: 1\nNOT first: 0\n",
+    "exit_status": 0
+  },
+  {
+    "number": 27,
+    "stdin": "12 10 1\n",
+    "stdout": "AND: 8\nOR: 14\nXOR: 6\nNOT16: 65523\nLeft: 24\nRight: 6\n",
+    "exit_status": 0
+  },
+  {
+    "number": 28,
+    "stdin": "7\n",
+    "stdout": "Modulus: Odd\nBitwise: Odd\n",
+    "exit_status": 0
+  },
+  {
+    "number": 29,
+    "stdin": "8 3 12\n",
+    "stdout": "Largest: 12\n",
+    "exit_status": 0
+  },
+  {
+    "number": 30,
+    "stdin": "2000\n",
+    "stdout": "Leap year\n",
+    "exit_status": 0
+  },
+  {
+    "number": 31,
+    "stdin": "12 / 4\n",
+    "stdout": "Result: 3.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 32,
+    "stdin": "85\n",
+    "stdout": "Grade: B\n",
+    "exit_status": 0
+  },
+  {
+    "number": 33,
+    "stdin": "1 -5 6\n",
+    "stdout": "Roots: 3.00 2.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 34,
+    "stdin": "E\n",
+    "stdout": "Vowel\n",
+    "exit_status": 0
+  },
+  {
+    "number": 35,
+    "stdin": "8 -3 12\n",
+    "stdout": "Largest: 12\nSmallest: -3\n",
+    "exit_status": 0
+  },
+  {
+    "number": 36,
+    "stdin": "10\n",
+    "stdout": "Sum: 55\n",
+    "exit_status": 0
+  },
+  {
+    "number": 37,
+    "stdin": "5\n",
+    "stdout": "Factorial: 120\n",
+    "exit_status": 0
+  },
+  {
+    "number": 38,
+    "stdin": "7\n",
+    "stdout": "0 1 1 2 3 5 8\n",
+    "exit_status": 0
+  },
+  {
+    "number": 39,
+    "stdin": "97\n",
+    "stdout": "Prime\n",
+    "exit_status": 0
+  },
+  {
+    "number": 40,
+    "stdin": "10 20\n",
+    "stdout": "11 13 17 19\n",
+    "exit_status": 0
+  },
+  {
+    "number": 41,
+    "stdin": "153\n",
+    "stdout": "Armstrong\n",
+    "exit_status": 0
+  },
+  {
+    "number": 42,
+    "stdin": "12321\n",
+    "stdout": "Palindrome\n",
+    "exit_status": 0
+  },
+  {
+    "number": 43,
+    "stdin": "-120\n",
+    "stdout": "Reversed: -21\n",
+    "exit_status": 0
+  },
+  {
+    "number": 44,
+    "stdin": "12 18\n",
+    "stdout": "GCD: 6\nLCM: 36\n",
+    "exit_status": 0
+  },
+  {
+    "number": 45,
+    "stdin": "28\n",
+    "stdout": "Perfect\n",
+    "exit_status": 0
+  },
+  {
+    "number": 46,
+    "stdin": "2\n",
+    "stdout": "Pyramid:\n *\n***\nDiamond:\n *\n***\n *\n",
+    "exit_status": 0
+  },
+  {
+    "number": 47,
+    "stdin": "3\n",
+    "stdout": "Floyd:\n1\n2 3\n4 5 6\nPascal:\n1\n1 1\n1 2 1\n",
+    "exit_status": 0
+  },
+  {
+    "number": 48,
+    "stdin": "1 2 3 3 2 4 0\n",
+    "stdout": "Sum: 5\nSkipped\nSquare: 16\n",
+    "exit_status": 0
+  },
+  {
+    "number": 49,
+    "stdin": "4 9 -2 7 0\n",
+    "stdout": "9 -2 7 0\n",
+    "exit_status": 0
+  },
+  {
+    "number": 50,
+    "stdin": "4 9 -2 7 0\n",
+    "stdout": "Largest: 9\nSmallest: -2\n",
+    "exit_status": 0
+  },
+  {
+    "number": 51,
+    "stdin": "4 1 2 3 4\n",
+    "stdout": "4 3 2 1\n",
+    "exit_status": 0
+  },
+  {
+    "number": 52,
+    "stdin": "5 7 2 9 2 1 2\n",
+    "stdout": "Index: 1\n",
+    "exit_status": 0
+  },
+  {
+    "number": 53,
+    "stdin": "5 2 4 6 8 10 8\n",
+    "stdout": "Index: 3\n",
+    "exit_status": 0
+  },
+  {
+    "number": 54,
+    "stdin": "5 4 -1 3 3 0\n",
+    "stdout": "-1 0 3 3 4\n",
+    "exit_status": 0
+  },
+  {
+    "number": 55,
+    "stdin": "5 4 -1 3 3 0\n",
+    "stdout": "-1 0 3 3 4\n",
+    "exit_status": 0
+  },
+  {
+    "number": 56,
+    "stdin": "5 4 -1 3 3 0\n",
+    "stdout": "-1 0 3 3 4\n",
+    "exit_status": 0
+  },
+  {
+    "number": 57,
+    "stdin": "3 1 3 5 3 2 4 6\n",
+    "stdout": "1 2 3 4 5 6\n",
+    "exit_status": 0
+  },
+  {
+    "number": 58,
+    "stdin": "6 3 1 3 2 1 2\n",
+    "stdout": "3 1 2\n",
+    "exit_status": 0
+  },
+  {
+    "number": 59,
+    "stdin": "2 2 1 2 3 4 5 6 7 8\n",
+    "stdout": "Addition:\n6 8\n10 12\nSubtraction:\n-4 -4\n-4 -4\n",
+    "exit_status": 0
+  },
+  {
+    "number": 60,
+    "stdin": "2 2 2 1 2 3 4 5 6 7 8\n",
+    "stdout": "19 22\n43 50\n",
+    "exit_status": 0
+  },
+  {
+    "number": 61,
+    "stdin": "2 3 1 2 3 4 5 6\n",
+    "stdout": "1 4\n2 5\n3 6\n",
+    "exit_status": 0
+  },
+  {
+    "number": 62,
+    "stdin": "2 3 1 2 3 4 5 6\n",
+    "stdout": "Rows: 6 15\nColumns: 5 7 9\n",
+    "exit_status": 0
+  },
+  {
+    "number": 63,
+    "stdin": "2 1 2 2 4\n",
+    "stdout": "Main diagonal: 5\nSecondary diagonal: 4\nSymmetric\n",
+    "exit_status": 0
+  },
+  {
+    "number": 64,
+    "stdin": "Hello world\n",
+    "stdout": "Length: 11\n",
+    "exit_status": 0
+  },
+  {
+    "number": 65,
+    "stdin": "hello\n",
+    "stdout": "olleh\n",
+    "exit_status": 0
+  },
+  {
+    "number": 66,
+    "stdin": "level\n",
+    "stdout": "Palindrome\n",
+    "exit_status": 0
+  },
+  {
+    "number": 67,
+    "stdin": "Hello 123\n",
+    "stdout": "Vowels: 2\nConsonants: 3\nDigits: 3\nSpaces: 1\n",
+    "exit_status": 0
+  },
+  {
+    "number": 68,
+    "stdin": "cat\ndog\n",
+    "stdout": "Concatenated: catdog\nComparison: -1\n",
+    "exit_status": 0
+  },
+  {
+    "number": 69,
+    "stdin": "Listen\nSilent\n",
+    "stdout": "Anagrams\n",
+    "exit_status": 0
+  },
+  {
+    "number": 70,
+    "stdin": "3\npear\napple\nbanana\n",
+    "stdout": "apple\nbanana\npear\n",
+    "exit_status": 0
+  },
+  {
+    "number": 71,
+    "stdin": "banana\n",
+    "stdout": "97:3\n98:1\n110:2\n",
+    "exit_status": 0
+  },
+  {
+    "number": 72,
+    "stdin": "abracadabra\ncad\n",
+    "stdout": "Index: 4\n",
+    "exit_status": 0
+  },
+  {
+    "number": 73,
+    "stdin": "7\nMira\n92\n",
+    "stdout": "7 | Mira | 92.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 74,
+    "stdin": "2\n1\nMira\n5000\n2\nArun\n6000\n",
+    "stdout": "1 | Mira | 5000.00\n2 | Arun | 6000.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 75,
+    "stdin": "1 2 3 4\n",
+    "stdout": "Sum: 4.00 6.00i\nProduct: -5.00 10.00i\n",
+    "exit_status": 0
+  },
+  {
+    "number": 76,
+    "stdin": "0 0 3 4\n",
+    "stdout": "Distance: 5.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 77,
+    "stdin": "10 20 30 12 30 45\n",
+    "stdout": "02:10:15\n",
+    "exit_status": 0
+  },
+  {
+    "number": 78,
+    "stdin": "29 2 2024 1 3 2024\n",
+    "stdout": "First date is earlier\n",
+    "exit_status": 0
+  },
+  {
+    "number": 79,
+    "stdin": "2\n1\nMira\n80\n2\nArun\n95\n",
+    "stdout": "2 | Arun | 95.00\n1 | Mira | 80.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 80,
+    "stdin": "2\n1\nMira\n80\n2\nArun\n95\n2\n",
+    "stdout": "2 | Arun | 95.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 81,
+    "stdin": "7\nMira\n12 Lake Road\nChennai\n4 5 2000\n",
+    "stdout": "7 | Mira\n12 Lake Road, Chennai\nDOB: 2000-05-04\n",
+    "exit_status": 0
+  },
+  {
+    "number": 82,
+    "stdin": "1\nMira\n80 90 70 60 100\n",
+    "stdout": "1 | Mira\nTotal: 400.00\nAverage: 80.00\nGrade: B\n",
+    "exit_status": 0
+  },
+  {
+    "number": 83,
+    "stdin": "1 1\nC Primer\nDemo Author\n2 1 4 3 1 4 0\n",
+    "stdout": "Added\nBorrowed\n1 | C Primer | Demo Author | Borrowed\nReturned\n1 | C Primer | Demo Author | Available\n",
+    "exit_status": 0
+  },
+  {
+    "number": 84,
+    "stdin": "1\nAlex\n10000\n1 5000 2 2500 3 0\n",
+    "stdout": "Balance cents: 15000\nBalance cents: 12500\n1 | Alex | 12500 cents\n",
+    "exit_status": 0
+  },
+  {
+    "number": 85,
+    "stdin": "1\n7\nMira\n10000 20 10 500\n",
+    "stdout": "7 | Mira | Gross: 13000.00 | Net: 12500.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 86,
+    "stdin": "1 7\nPen\n10 25\n3 7 3 2 7 5 4 0\n",
+    "stdout": "Added\nSold\nUpdated\n7 | Pen | 5 | 25 cents\nStock value cents: 125\n",
+    "exit_status": 0
+  },
+  {
+    "number": 87,
+    "stdin": "1\nMira\n80\n",
+    "stdout": "Inside copy: 85.00\nCaller: 80.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 88,
+    "stdin": "1\nMira\n80\n",
+    "stdout": "Caller: 85.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 89,
+    "stdin": "1\nMira\n80\n",
+    "stdout": "1 | Mira | 80.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 90,
+    "stdin": "42 3.5\nC union\n",
+    "stdout": "Integer: 42\nReal: 3.50\nText: C union\n",
+    "exit_status": 0
+  },
+  {
+    "number": 91,
+    "stdin": "",
+    "stdout": "Structure size: 32\nUnion size: 16\nUnion covers every member: yes\n",
+    "exit_status": 0
+  },
+  {
+    "number": 92,
+    "stdin": "2 3.75\n",
+    "stdout": "Real: 3.75\n",
+    "exit_status": 0
+  },
+  {
+    "number": 93,
+    "stdin": "1 2 17\n",
+    "stdout": "Ready: 1\nMode: 2\nCount: 17\n",
+    "exit_status": 0
+  },
+  {
+    "number": 94,
+    "stdin": "7 12.5 1 3\n",
+    "stdout": "Item: 7 | 12.50\nCount: 3\n",
+    "exit_status": 0
+  },
+  {
+    "number": 95,
+    "stdin": "2 1 1\nAlex\n3 2 1 3 0\n",
+    "stdout": "Booked: 1\n1 | Alex\n2 | Available\nCancelled: 1\n1 | Available\n2 | Available\n",
+    "exit_status": 0
+  },
+  {
+    "number": 96,
+    "stdin": "2 3 2 2 0 2 4 1 -2 0\n",
+    "stdout": "3 2\n4 1\n",
+    "exit_status": 0
+  },
+  {
+    "number": 97,
+    "stdin": "3 4\n",
+    "stdout": "No args/no return\nArgs/no return: 3\nNo args/return: 5\nArgs/return: 7\n",
+    "exit_status": 0
+  },
+  {
+    "number": 98,
+    "stdin": "10 20\n",
+    "stdout": "Inside value call: 20 10\nAfter value call: 10 20\nAfter pointer call: 20 10\n",
+    "exit_status": 0
+  },
+  {
+    "number": 99,
+    "stdin": "7 3\n",
+    "stdout": "Sum: 10\nDifference: 4\nProduct: 21\n",
+    "exit_status": 0
+  },
+  {
+    "number": 100,
+    "stdin": "97\n",
+    "stdout": "Prime\n",
+    "exit_status": 0
+  },
+  {
+    "number": 101,
+    "stdin": "4 1 2 3 4\n",
+    "stdout": "Sum: 10\nMean: 2.50\n",
+    "exit_status": 0
+  },
+  {
+    "number": 102,
+    "stdin": "5\n",
+    "stdout": "Factorial: 120\n",
+    "exit_status": 0
+  },
+  {
+    "number": 103,
+    "stdin": "7\n",
+    "stdout": "0 1 1 2 3 5 8\n",
+    "exit_status": 0
+  },
+  {
+    "number": 104,
+    "stdin": "48 18\n",
+    "stdout": "GCD: 6\n",
+    "exit_status": 0
+  },
+  {
+    "number": 105,
+    "stdin": "2\n",
+    "stdout": "A -> B\nA -> C\nB -> C\n",
+    "exit_status": 0
+  },
+  {
+    "number": 106,
+    "stdin": "2 -3\n",
+    "stdout": "Power: 0.125000\n",
+    "exit_status": 0
+  },
+  {
+    "number": 107,
+    "stdin": "5 2 4 6 8 10 8\n",
+    "stdout": "Index: 3\n",
+    "exit_status": 0
+  },
+  {
+    "number": 108,
+    "stdin": "12345\nhello\n",
+    "stdout": "Digit sum: 15\nReversed: olleh\n",
+    "exit_status": 0
+  },
+  {
+    "number": 109,
+    "stdin": "42\n",
+    "stdout": "Value: 42\nAddress: 0x16fa2e078\nDereferenced: 42\nUpdated: 43\n",
+    "exit_status": 0
+  },
+  {
+    "number": 110,
+    "stdin": "4 1 2 3 4\n",
+    "stdout": "1 2 3 4\n",
+    "exit_status": 0
+  },
+  {
+    "number": 111,
+    "stdin": "3 1 2 3 2 4 5\n",
+    "stdout": "malloc: 1 2 3\ncalloc first: 0\nrealloc: 1 2 3 4 5\n",
+    "exit_status": 0
+  },
+  {
+    "number": 112,
+    "stdin": "2 3 1 2 3 4 5 6\n",
+    "stdout": "1 2 3\n4 5 6\n",
+    "exit_status": 0
+  },
+  {
+    "number": 113,
+    "stdin": "3\npear\napple\nbanana\n",
+    "stdout": "apple\nbanana\npear\n",
+    "exit_status": 0
+  },
+  {
+    "number": 114,
+    "stdin": "1 2 3 3 4 5 4 9 3 0\n",
+    "stdout": "Result: 5.00\nResult: 20.00\nResult: 3.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 115,
+    "stdin": "1 10 1 20 1 10 3 2 10 3 0\n",
+    "stdout": "Inserted\nInserted\nInserted\n10 20 10\nDeleted\n20 10\n",
+    "exit_status": 0
+  },
+  {
+    "number": 116,
+    "stdin": "Hello file\n",
+    "stdout": "Read: Hello file\n",
+    "exit_status": 0
+  },
+  {
+    "number": 117,
+    "stdin": "input.txt\ncopy.txt\n",
+    "stdout": "Copied\n",
+    "exit_status": 0
+  },
+  {
+    "number": 118,
+    "stdin": "input.txt\n",
+    "stdout": "Characters: 24\nWords: 4\nLines: 2\n",
+    "exit_status": 0
+  },
+  {
+    "number": 119,
+    "stdin": "2\n1\nMira\n80\n2\nArun\n90\n",
+    "stdout": "1 | Mira | 80.00\n2 | Arun | 90.00\n",
+    "exit_status": 0
+  },
+  {
+    "number": 120,
+    "stdin": "2 95\n",
+    "stdout": "Updated at byte: 276\n2 | Arun | 95.00\n",
+    "exit_status": 0
+  }
+]

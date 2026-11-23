@@ -1,0 +1,6 @@
+build/
+__pycache__/
+notes.txt
+copy.txt
+students.dat
+build-sanitize/
