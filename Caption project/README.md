@@ -11,6 +11,11 @@ check out and renew loans, place a reservation, return books, and manage stock.
 The video is silent with an optional subtitle track.
 [Demo guide and recording details](demo/README.md).
 
+## Presentation and documentation
+
+- [Team 7 presentation (PowerPoint)](documentation/Team%207%20Library%20Project.pptx)
+- [Team 7 capstone report (PDF)](documentation/Team%207%20Library%20Management%20Capstone%20Report.pdf)
+
 A terminal client communicates with a multithreaded TCP server. All application
 code is C, using POSIX sockets and pthreads. Works on macOS and Linux.
 No third-party libraries are required.
