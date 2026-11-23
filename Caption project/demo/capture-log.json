@@ -1,0 +1,158 @@
+{
+  "captured_at": "2026-11-23T07:19:57.604Z",
+  "source": "Real browser screens from the capstone C server with separate fictional demo data",
+  "frames": [
+    {
+      "label": "Start with an empty library dashboard",
+      "seconds": 4
+    },
+    {
+      "label": "Open Add book",
+      "seconds": 2
+    },
+    {
+      "label": "Enter the first book title and author",
+      "seconds": 3
+    },
+    {
+      "label": "Save the book to the C server",
+      "seconds": 3
+    },
+    {
+      "label": "Enter a second book",
+      "seconds": 2
+    },
+    {
+      "label": "Second book saved",
+      "seconds": 3
+    },
+    {
+      "label": "Browse the saved collection",
+      "seconds": 4
+    },
+    {
+      "label": "Search for Clean Code",
+      "seconds": 2
+    },
+    {
+      "label": "Search narrows the collection",
+      "seconds": 4
+    },
+    {
+      "label": "Open member registration",
+      "seconds": 2
+    },
+    {
+      "label": "Register a demonstration member",
+      "seconds": 3
+    },
+    {
+      "label": "Member saved to the directory",
+      "seconds": 3
+    },
+    {
+      "label": "Register a second member for the reservation example",
+      "seconds": 2
+    },
+    {
+      "label": "Two registered members",
+      "seconds": 3
+    },
+    {
+      "label": "Open the checkout workflow",
+      "seconds": 2
+    },
+    {
+      "label": "Choose a copy, member, and 14-day loan period",
+      "seconds": 3
+    },
+    {
+      "label": "Checkout confirmed by the C server",
+      "seconds": 3
+    },
+    {
+      "label": "Review the active loan and its due date",
+      "seconds": 5
+    },
+    {
+      "label": "Renew the active loan and extend its due date",
+      "seconds": 4
+    },
+    {
+      "label": "Open reservations while the copy is on loan",
+      "seconds": 2
+    },
+    {
+      "label": "Reserve the borrowed copy for Sam Demo",
+      "seconds": 3
+    },
+    {
+      "label": "The reservation is now pending in the queue",
+      "seconds": 4
+    },
+    {
+      "label": "Renewal is blocked because another member is waiting",
+      "seconds": 4
+    },
+    {
+      "label": "Return the book; it becomes reserved for the waiting member",
+      "seconds": 4
+    },
+    {
+      "label": "The returned copy is reserved for Sam Demo",
+      "seconds": 4
+    },
+    {
+      "label": "Select Sam Demo for the reserved copy",
+      "seconds": 3
+    },
+    {
+      "label": "Checkout to the waiting member succeeds",
+      "seconds": 4
+    },
+    {
+      "label": "Both returned loans remain in the circulation history",
+      "seconds": 5
+    },
+    {
+      "label": "The reservation is marked fulfilled",
+      "seconds": 4
+    },
+    {
+      "label": "Open stock management",
+      "seconds": 3
+    },
+    {
+      "label": "Receive two physical copies in one transaction",
+      "seconds": 3
+    },
+    {
+      "label": "Stock totals update to four copies",
+      "seconds": 4
+    },
+    {
+      "label": "Mark one demo copy as damaged",
+      "seconds": 3
+    },
+    {
+      "label": "Save the damaged status for copy 3",
+      "seconds": 4
+    },
+    {
+      "label": "Filter the stock list to damaged copies",
+      "seconds": 4
+    },
+    {
+      "label": "Removed copies remain in the record",
+      "seconds": 4
+    },
+    {
+      "label": "Restore the demo copy to active stock",
+      "seconds": 4
+    },
+    {
+      "label": "Dashboard reflects four available copies and completed circulation",
+      "seconds": 5
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:04,000
+Start with an empty library dashboard
+
+2
+00:00:04,000 --> 00:00:06,000
+Open Add book
+
+3
+00:00:06,000 --> 00:00:09,000
+Enter the first book title and author
+
+4
+00:00:09,000 --> 00:00:12,000
+Save the book to the C server
+
+5
+00:00:12,000 --> 00:00:14,000
+Enter a second book
+
+6
+00:00:14,000 --> 00:00:17,000
+Second book saved
+
+7
+00:00:17,000 --> 00:00:21,000
+Browse the saved collection
+
+8
+00:00:21,000 --> 00:00:23,000
+Search for Clean Code
+
+9
+00:00:23,000 --> 00:00:27,000
+Search narrows the collection
+
+10
+00:00:27,000 --> 00:00:29,000
+Open member registration
+
+11
+00:00:29,000 --> 00:00:32,000
+Register a demonstration member
+
+12
+00:00:32,000 --> 00:00:35,000
+Member saved to the directory
+
+13
+00:00:35,000 --> 00:00:37,000
+Register a second member for the reservation example
+
+14
+00:00:37,000 --> 00:00:40,000
+Two registered members
+
+15
+00:00:40,000 --> 00:00:42,000
+Open the checkout workflow
+
+16
+00:00:42,000 --> 00:00:45,000
+Choose a copy, member, and 14-day loan period
+
+17
+00:00:45,000 --> 00:00:48,000
+Checkout confirmed by the C server
+
+18
+00:00:48,000 --> 00:00:53,000
+Review the active loan and its due date
+
+19
+00:00:53,000 --> 00:00:57,000
+Renew the active loan and extend its due date
+
+20
+00:00:57,000 --> 00:00:59,000
+Open reservations while the copy is on loan
+
+21
+00:00:59,000 --> 00:01:02,000
+Reserve the borrowed copy for Sam Demo
+
+22
+00:01:02,000 --> 00:01:06,000
+The reservation is now pending in the queue
+
+23
+00:01:06,000 --> 00:01:10,000
+Renewal is blocked because another member is waiting
+
+24
+00:01:10,000 --> 00:01:14,000
+Return the book; it becomes reserved for the waiting member
+
+25
+00:01:14,000 --> 00:01:18,000
+The returned copy is reserved for Sam Demo
+
+26
+00:01:18,000 --> 00:01:21,000
+Select Sam Demo for the reserved copy
+
+27
+00:01:21,000 --> 00:01:25,000
+Checkout to the waiting member succeeds
+
+28
+00:01:25,000 --> 00:01:30,000
+Both returned loans remain in the circulation history
+
+29
+00:01:30,000 --> 00:01:34,000
+The reservation is marked fulfilled
+
+30
+00:01:34,000 --> 00:01:37,000
+Open stock management
+
+31
+00:01:37,000 --> 00:01:40,000
+Receive two physical copies in one transaction
+
+32
+00:01:40,000 --> 00:01:44,000
+Stock totals update to four copies
+
+33
+00:01:44,000 --> 00:01:47,000
+Mark one demo copy as damaged
+
+34
+00:01:47,000 --> 00:01:51,000
+Save the damaged status for copy 3
+
+35
+00:01:51,000 --> 00:01:55,000
+Filter the stock list to damaged copies
+
+36
+00:01:55,000 --> 00:01:59,000
+Removed copies remain in the record
+
+37
+00:01:59,000 --> 00:02:03,000
+Restore the demo copy to active stock
+
+38
+00:02:03,000 --> 00:02:08,000
+Dashboard reflects four available copies and completed circulation

@@ -1,5 +1,16 @@
 # Library management system in C
 
+## ▶ Watch the project demo
+
+[![Watch the Library Management System in use](demo/poster.jpg)](https://github.com/Probir127/CSA0234-PROBIR-1911260319/raw/refs/heads/main/Caption%20project/demo/capstone-demo.mp4)
+
+**[▶ PLAY VIDEO — 2 minutes 8 seconds](https://github.com/Probir127/CSA0234-PROBIR-1911260319/raw/refs/heads/main/Caption%20project/demo/capstone-demo.mp4)**
+
+See the actual application being used: add and search books, register members,
+check out and renew loans, place a reservation, return books, and manage stock.
+The video is silent with an optional subtitle track.
+[Demo guide and recording details](demo/README.md).
+
 A terminal client communicates with a multithreaded TCP server. All application
 code is C, using POSIX sockets and pthreads. Works on macOS and Linux.
 No third-party libraries are required.
