@@ -94,3 +94,11 @@ directories. The stated macOS platform was executed; Linux compatibility is
 expected from the C11/POSIX interfaces but was not executed here.
 
 No official grade, classroom participation, or instructor approval is claimed.
+
+## Navigation update - 24 November 2026
+
+The code folder is now `C_Programs` and sample data is in `Sample_Inputs`.
+Only navigation, documentation, and build/catalogue paths changed; all numbered
+C files and `lab.h` retain their verified contents. After the rename, `make -j4
+test` passed all 130 test groups and 422 program invocations. Documentation links
+and all 120 catalogue source paths were checked.
